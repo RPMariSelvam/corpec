@@ -43,10 +43,13 @@ if($currencyCode == "IDR"){
                 <ul>
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> Contact</li>
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> Leads</li>
+                    <li><span class="green-tick glyphicon glyphicon-ok"></span> KYC management</li>
+                    <li><span class="green-tick glyphicon glyphicon-ok"></span> Entity Management</li>
+
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> Documents</li>
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> Calendar / Reminders</li>
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> Invoice</li>
-
+                    <li><span class="green-tick glyphicon glyphicon-ok"></span> eLetter Box</li>
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> eSignature</li>
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> Enquiry Chat</li>
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> Email Box</li>
