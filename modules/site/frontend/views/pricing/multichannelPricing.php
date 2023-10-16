@@ -410,7 +410,8 @@ $this->registerCss('
     }
 ');
 $SalesFunnelsAddonPrice = CommonModel::CurrencyFormat($AddonsModels['Sales Funnels']->priced_monthly, $currencySymbol, 0);
-
+$EmailMarketingAddonPrice = CommonModel::CurrencyFormat($AddonsModels['Email Marketing']->priced_monthly, $currencySymbol, 0);
+$StorageAddonPrice = CommonModel::CurrencyFormat($AddonsModels['Storage']->priced_monthly, $currencySymbol, 0);
 ?>
 <div class="wrapper" style="background-color: #fff;">
     <div class="row">
@@ -552,10 +553,13 @@ $SalesFunnelsAddonPrice = CommonModel::CurrencyFormat($AddonsModels['Sales Funne
                                                 <div class="pricingContent">
                                                     <ul class="monthlyPlanInput">
                                                         <li data-original-title="Additional users can be added at <?= $SalesFunnelsAddonPrice ?>  per user/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvMonthlyPackages[$tier][$rows]->numof_user == 0) ? "Unlimited Clients (Entities)" : (($InvMonthlyPackages[$tier][$rows]->numof_user > 0)?$InvMonthlyPackages[$tier][$rows]->numof_user . " Clients (Entities)": " Unlimited Clients (Entities) ") ?></li>
-                                                        
+                                                        <li data-original-title="Additional Orders can be added at <?= $EmailMarketingAddonPrice ?> for every 100 sales order/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvMonthlyPackages[$tier][$rows]->numof_online_order == 0) ? " - " : (($InvMonthlyPackages[$tier][$rows]->numof_online_order > 0)? $InvMonthlyPackages[$tier][$rows]->numof_online_order. " Email Marketing": " N.A") ?></li>
+                                                        <li data-original-title="Additional blocks of 100 Storage” can be added @ <?= $StorageAddonPrice ?> per Storage Block/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvMonthlyPackages[$tier][$rows]->numberof_items == 0) ? " - " : (($InvMonthlyPackages[$tier][$rows]->numberof_items > 0)? $InvMonthlyPackages[$tier][$rows]->numberof_items. " MB Storage": " N.A ") ?></li>
+                                                    </ul>
                                                     <ul class="yearlyPlanInput">
                                                         <li data-original-title="Additional users can be added at <?= $SalesFunnelsAddonPrice ?>  per user/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvYearlyPackages[$tier][$rows]->numof_user == 0) ? " Unlimited Clients (Entities)" : (($InvYearlyPackages[$tier][$rows]->numof_user > 0)?$InvYearlyPackages[$tier][$rows]->numof_user . " Clients (Entities)": " Unlimited Clients (Entities) ") ?></li>
-                                                        
+                                                        <li data-original-title="Additional Orders can be added at <?= $EmailMarketingAddonPrice ?> for every 100 sales order/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvYearlyPackages[$tier][$rows]->numof_online_order == 0) ? " - " : (($InvYearlyPackages[$tier][$rows]->numof_online_order > 0)? $InvYearlyPackages[$tier][$rows]->numof_online_order. " Email Marketing": " N.A") ?></li>
+                                                        <li data-original-title="Additional blocks of 100 Storage” can be added @ <?= $StorageAddonPrice ?> per Storage Block/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvYearlyPackages[$tier][$rows]->numberof_items == 0) ? " - " : (($InvYearlyPackages[$tier][$rows]->numberof_items > 0)? $InvYearlyPackages[$tier][$rows]->numberof_items. " MB Storage": " N.A ") ?></li>
                                                     </ul>
                                                     <?=
                                                         $this->render('blocks/multichannelOtherProducts',
@@ -662,11 +666,13 @@ $SalesFunnelsAddonPrice = CommonModel::CurrencyFormat($AddonsModels['Sales Funne
                                                 <div class="pricingContent">
                                                     <ul class="monthlyPlanInput">
                                                         <li data-original-title="Additional users can be added at <?= $SalesFunnelsAddonPrice ?>  per user/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvMonthlyPackages[$tier][$rows]->numof_user == 0) ? "Unlimited Clients (Entities)" : (($InvMonthlyPackages[$tier][$rows]->numof_user > 0)?$InvMonthlyPackages[$tier][$rows]->numof_user . " Clients (Entities)": " Unlimited Clients (Entities) ") ?></li>
-                                                       
+                                                        <li data-original-title="Additional Orders can be added at <?= $EmailMarketingAddonPrice ?> for every 100 sales order/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvMonthlyPackages[$tier][$rows]->numof_online_order == 0) ? " - " : (($InvMonthlyPackages[$tier][$rows]->numof_online_order > 0)? $InvMonthlyPackages[$tier][$rows]->numof_online_order. " Email Marketing": " N.A") ?></li>
+                                                        <li data-original-title="Additional blocks of 100 Storage” can be added @ <?= $StorageAddonPrice ?> per Storage Block/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvMonthlyPackages[$tier][$rows]->numberof_items == 0) ? " - " : (($InvMonthlyPackages[$tier][$rows]->numberof_items > 0)? $InvMonthlyPackages[$tier][$rows]->numberof_items. " MB Storage": " N.A ") ?></li>
                                                     </ul>
                                                     <ul class="yearlyPlanInput">
                                                         <li data-original-title="Additional users can be added at <?= $SalesFunnelsAddonPrice ?>  per user/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvYearlyPackages[$tier][$rows]->numof_user == 0) ? "Unlimited Clients (Entities)" : (($InvYearlyPackages[$tier][$rows]->numof_user > 0)?$InvYearlyPackages[$tier][$rows]->numof_user . " Clients (Entities)": " Unlimited Clients (Entities) ") ?></li>
-                                                        
+                                                        <li data-original-title="Additional Orders can be added at <?= $EmailMarketingAddonPrice ?> for every 100 sales order/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvYearlyPackages[$tier][$rows]->numof_online_order == 0) ? " - " : (($InvYearlyPackages[$tier][$rows]->numof_online_order > 0)? $InvYearlyPackages[$tier][$rows]->numof_online_order. " Email Marketing": " N.A") ?></li>
+                                                        <li data-original-title="Additional blocks of 100 Storage” can be added @ <?= $StorageAddonPrice ?> per Storage Block/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvYearlyPackages[$tier][$rows]->numberof_items == 0) ? " - " : (($InvYearlyPackages[$tier][$rows]->numberof_items > 0)? $InvYearlyPackages[$tier][$rows]->numberof_items. " MB Storage": " N.A ") ?></li>
                                                     </ul>
                                                     <?=
                                                     $this->render('blocks/multichannelOtherProducts',
@@ -773,11 +779,13 @@ $SalesFunnelsAddonPrice = CommonModel::CurrencyFormat($AddonsModels['Sales Funne
                                                 <div class="pricingContent">
                                                     <ul class="monthlyPlanInput">
                                                         <li data-original-title="Additional users can be added at <?= $SalesFunnelsAddonPrice ?>  per user/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvMonthlyPackages[$tier][$rows]->numof_user == 0) ? "Unlimited Clients (Entities)" : (($InvMonthlyPackages[$tier][$rows]->numof_user > 0)?$InvMonthlyPackages[$tier][$rows]->numof_user . " Clients (Entities)": " Unlimited Clients (Entities) ") ?></li>
-                                                        
+                                                        <li data-original-title="Additional Orders can be added at <?= $EmailMarketingAddonPrice ?> for every 100 sales order/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvMonthlyPackages[$tier][$rows]->numof_online_order == 0) ? " - " : (($InvMonthlyPackages[$tier][$rows]->numof_online_order > 0)? $InvMonthlyPackages[$tier][$rows]->numof_online_order. " Email Marketing": " N.A") ?></li>
+                                                        <li data-original-title="Additional blocks of 100 Storage” can be added @ <?= $StorageAddonPrice ?> per Storage Block/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvMonthlyPackages[$tier][$rows]->numberof_items == 0) ? " - " : (($InvMonthlyPackages[$tier][$rows]->numberof_items > 0)? $InvMonthlyPackages[$tier][$rows]->numberof_items. " MB Storage": " N.A ") ?></li>
                                                     </ul>
                                                     <ul class="yearlyPlanInput">
                                                         <li data-original-title="Additional users can be added at <?= $SalesFunnelsAddonPrice ?>  per user/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvYearlyPackages[$tier][$rows]->numof_user == 0) ? "Unlimited Clients (Entities)" : (($InvYearlyPackages[$tier][$rows]->numof_user > 0)?$InvYearlyPackages[$tier][$rows]->numof_user . " Clients (Entities)": " Unlimited Clients (Entities) ") ?></li>
-                                                        
+                                                        <li data-original-title="Additional Orders can be added at <?= $EmailMarketingAddonPrice ?> for every 100 sales order/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvYearlyPackages[$tier][$rows]->numof_online_order == 0) ? " - " : (($InvYearlyPackages[$tier][$rows]->numof_online_order > 0)? $InvYearlyPackages[$tier][$rows]->numof_online_order. " Email Marketing": " N.A") ?></li>
+                                                        <li data-original-title="Additional blocks of 100 Storage” can be added @ <?= $StorageAddonPrice ?> per Storage Block/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvYearlyPackages[$tier][$rows]->numberof_items == 0) ? " - " : (($InvYearlyPackages[$tier][$rows]->numberof_items > 0)? $InvYearlyPackages[$tier][$rows]->numberof_items. " MB Storage": " N.A ") ?></li>
                                                     </ul>
                                                     <?=
                                                     $this->render('blocks/multichannelOtherProducts',
@@ -883,11 +891,13 @@ $SalesFunnelsAddonPrice = CommonModel::CurrencyFormat($AddonsModels['Sales Funne
                                                 <div class="pricingContent">
                                                     <ul class="monthlyPlanInput">
                                                         <li data-original-title="Additional users can be added at <?= $SalesFunnelsAddonPrice ?>  per user/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvMonthlyPackages[$tier][$rows]->numof_user == 0) ? "Unlimited Clients (Entities)" : (($InvMonthlyPackages[$tier][$rows]->numof_user > 0)?$InvMonthlyPackages[$tier][$rows]->numof_user . " Clients (Entities)": " Unlimited Clients (Entities) ") ?></li>
-                                                        
+                                                        <li data-original-title="Additional Orders can be added at <?= $EmailMarketingAddonPrice ?> for every 100 sales order/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvMonthlyPackages[$tier][$rows]->numof_online_order == 0) ? " - " : (($InvMonthlyPackages[$tier][$rows]->numof_online_order > 0)? $InvMonthlyPackages[$tier][$rows]->numof_online_order. " Email Marketing": " N.A") ?></li>
+                                                        <li data-original-title="Additional blocks of 100 Storage” can be added @ <?= $StorageAddonPrice ?> per Storage Block/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvMonthlyPackages[$tier][$rows]->numberof_items == 0) ? " - " : (($InvMonthlyPackages[$tier][$rows]->numberof_items > 0)? $InvMonthlyPackages[$tier][$rows]->numberof_items. " MB Storage": " N.A ") ?></li>
                                                     </ul>
                                                     <ul class="yearlyPlanInput">
                                                         <li data-original-title="Additional users can be added at <?= $SalesFunnelsAddonPrice ?>  per user/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvYearlyPackages[$tier][$rows]->numof_user == 0) ? "Unlimited Clients (Entities)" : (($InvYearlyPackages[$tier][$rows]->numof_user > 0)?$InvYearlyPackages[$tier][$rows]->numof_user . " Clients (Entities)": " Unlimited Clients (Entities) ") ?></li>
-                                                        
+                                                        <li data-original-title="Additional Orders can be added at <?= $EmailMarketingAddonPrice ?> for every 100 sales order/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvYearlyPackages[$tier][$rows]->numof_online_order == 0) ? " - " : (($InvYearlyPackages[$tier][$rows]->numof_online_order > 0)? $InvYearlyPackages[$tier][$rows]->numof_online_order. " Email Marketing": " N.A") ?></li>
+                                                        <li data-original-title="Additional blocks of 100 Storage” can be added @ <?= $StorageAddonPrice ?> per Storage Block/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title=""><?= ($InvYearlyPackages[$tier][$rows]->numberof_items == 0) ? " - " : (($InvYearlyPackages[$tier][$rows]->numberof_items > 0)? $InvYearlyPackages[$tier][$rows]->numberof_items. " MB Storage": " N.A ") ?></li>
                                                     </ul>
                                                     <?=
                                                     $this->render('blocks/multichannelOtherProducts',
@@ -936,11 +946,13 @@ $SalesFunnelsAddonPrice = CommonModel::CurrencyFormat($AddonsModels['Sales Funne
                                                 <div class="pricingContent">
                                                     <ul class="monthlyPlanInput">
                                                         <li data-original-title="Additional users can be added at <?= $SalesFunnelsAddonPrice ?>  per user/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title="">Unlimited Clients (Entities)</li>
-                                                        
+                                                        <li data-original-title="Additional Orders can be added at <?= $EmailMarketingAddonPrice ?> for every 100 sales order/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title="">Multiple Sales orders</li>
+                                                        <li data-original-title="Additional blocks of 100 Storage” can be added @ <?= $StorageAddonPrice ?> per Storage Block/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title="">N.A</li>
                                                     </ul>
                                                     <ul class="yearlyPlanInput">
                                                         <li data-original-title="Additional users can be added at <?= $SalesFunnelsAddonPrice ?>  per user/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title="">Unlimited Clients (Entities)</li>
-                                                        
+                                                        <li data-original-title="Additional Orders can be added at <?= $EmailMarketingAddonPrice ?> for every 100 sales order/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title="">Multiple Sales orders</li>
+                                                        <li data-original-title="Additional blocks of 100 Storage” can be added @ <?= $StorageAddonPrice ?> per Storage Block/ per month. 20% discount apply for annual payments." data-container="body" data-toggle="tooltip" data-placement="top" title="">N.A</li>
                                                     </ul>
                                                     <?=
                                                     $this->render('blocks/multichannelOtherProducts',
@@ -983,8 +995,19 @@ $SalesFunnelsAddonPrice = CommonModel::CurrencyFormat($AddonsModels['Sales Funne
                     <h2 class="add_on_pricing_head" style="padding-top: 25px;">Add Ons</h2>
                     <p class="each_add_ons">You can buy multiples of each add-ons</p>
 
-                    
-                   
+                    <div class="col-md-6 addOnsPricing">
+                        <h4 class="add_on_pricing_head_h4">Sales Orders</h4>
+                        <p class="add_on_text" ><span style="font-size:14px;font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;"><?= $EmailMarketingAddonPrice ?></span> for every 100 sales order/ per month.</p>
+                    </div>
+                    <!--<div class="col-md-6 addOnsPricing">
+                        <h4 class="add_on_pricing_head_h4">No. of users</h4>
+                        <p class="add_on_text" ><span style="font-size:14px;font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;"><?/*= $SalesFunnelsAddonPrice */?></span> per user/ per month.</p>
+                    </div>-->
+
+                    <div class="col-md-6 addOnsPricing">
+                        <h4 class="add_on_pricing_head_h4">Storage</h4>
+                        <p class="add_on_text" >“Blocks of 100 Storage” @ <span style="font-size:14px;font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;"><?= $StorageAddonPrice ?></span> per Storage Block/ per month.<br> Storage can be bought only in multiples of 100.</p>
+                    </div>
 
                     <div class="col-md-12 addOnsPricing">
                         <br>

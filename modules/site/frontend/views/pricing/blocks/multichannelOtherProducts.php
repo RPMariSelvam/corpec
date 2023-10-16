@@ -53,7 +53,6 @@ if($currencyCode == "IDR"){
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> eSignature</li>
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> Enquiry Chat</li>
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> Email Box</li>
-                    <li><span class="green-tick glyphicon glyphicon-ok"></span> Invoicing</li>
                     <li style="display: none;"><span class="green-tick glyphicon glyphicon-ok"></span> Smart Emailer</li>
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> Workflow</li>
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> Pipeline</li>
@@ -76,8 +75,9 @@ if($currencyCode == "IDR"){
         <div class="panel-collapse collapse_F_Three">
             <div class="panel-body">
                 <ul>
+                    <li><span class="green-tick glyphicon glyphicon-ok"></span> ACRA</li>
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> XERO</li>
-                    <li><span class="green-tick glyphicon glyphicon-ok"></span> Quickbooks</li>
+                
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> <i class="fa fa-windows" aria-hidden="true"></i>
                         MicroSoft ONE Drive</li>
                     <li><span class="green-tick glyphicon glyphicon-ok"></span> <i class="fa fa-google" aria-hidden="true"></i>
