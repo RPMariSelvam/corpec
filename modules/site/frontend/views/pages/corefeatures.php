@@ -101,9 +101,9 @@
                 <div class="col-md-6">
                     <div class="content-area">
                         <div class="content">
-                            <h4>Improve your Productivity & increase the Efficiency of your business with SimplyyFi your
+                            <h4>Improve your Productivity & increase the Efficiency of your business with CorpSec your
                                 one centralised software.</h4>
-                            <p>SimplyyFi improves productivity and efficiency by streamlining lead management, client
+                            <p>CorpSec improves productivity and efficiency by streamlining lead management, client
                                 information access, document handling, digital signature with trackers, task
                                 organization, and Invoice and payment processes. It centralizes essential functions,
                                 enables real-time insights, and promotes seamless communication with clients, optimizing
@@ -125,7 +125,7 @@
                 <div class="col-md-6">
                     <div class="content-area">
                         <div class="content">
-                            <h4>Supercharge your Marketing & Outreach with SimplyyFi software.</h4>
+                            <h4>Supercharge your Marketing & Outreach with CorpSec software.</h4>
                             <p>Effortlessly send custom automated bulk emails like Mailchimp, schedule and post on FB,
                                 Instagram, Twitter, and TikTok. Consolidate all chats from FB Messenger, IG, TikTok,
                                 WhatsApp, SMS, Telegram, WeChat, and Google Chat all with the power of ChatGPT AI for
