@@ -7582,9 +7582,10 @@ table, td, th {
     margin-bottom: 0
 }
 img.sitelogo {
-    height: 40px!important;
+    height: 70px!important;
     width: auto
 }
+
 img.sublogo {
     height: 25px!important;
     padding-left: 40px;

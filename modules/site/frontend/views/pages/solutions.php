@@ -79,8 +79,11 @@ if($country_code !="sg" && $country_code !="in"){
                     <li><a href="#contacts" data-toggle="tab">Contacts</a></li>
                     <li><a href="#leads" data-toggle="tab">Leads</a></li>
                     <li><a href="#clients" data-toggle="tab">Clients</a></li>
+                    <li><a href="#entity" data-toggle="tab">Entity Management</a></li>
+                    <li><a href="#kyc" data-toggle="tab">KYC (Know Your Customer)</a></li>
+                    <li><a href="#eletter" data-toggle="tab">eLetter Box</a></li>
                     <li><a href="#documents" data-toggle="tab">Documents </a></li>
-                    <li><a href="#ocr" data-toggle="tab">Scan to Doc (OCR):</a></li>
+                    <li><a href="#ocr" data-toggle="tab">Scan to Doc (OCR)</a></li>
                     <li><a href="#esignature" data-toggle="tab">eSignature</a></li>
                     <li><a href="#work_space" data-toggle="tab">Workspace </a></li>
                     <li><a href="#pipeline" data-toggle="tab">Pipeline </a></li>
@@ -109,7 +112,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 1. Contacts</h5>
+                                                <h5 style="color:black;"> Contacts</h5>
                                                 <p>
                                                         Efficiently manage and access contact information for clients, leads, and stakeholders, enabling seamless communication and relationship building.
                                                     </p>
@@ -129,7 +132,7 @@ if($country_code !="sg" && $country_code !="in"){
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
                                                 
-                                                <h5 style="color:black;"> 2. Leads : </h5>
+                                                <h5 style="color:black;"> Leads </h5>
                                                 <p>
                                                     Streamline lead tracking and conversion processes. Capture, categorize, and nurture potential clients, ensuring that no business opportunity goes unnoticed
                                                 </p>
@@ -147,12 +150,68 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 3. Clients:</h5>
+                                                <h5 style="color:black;"> Clients</h5>
                                             <p>
                                                         Centralize client data, allowing for quick retrieval and enhancing client relationship management. Keep a comprehensive record of interactions and transactions to provide personalized service.
                                                         <Learn more>
                                                     </p>
                                                 </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="solution-list active" id="entity">
+                        <div id="wrapper_2" class="orgin-css-hov">
+                            <div id="image-effects-section_1">
+                                <div class="org_wrapper">
+                                    <div class="rd-gird-row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
+                                                <h5 style="color:black;"> Entity Management </h5>
+                                                <p>
+                                                    Simplify the management of corporate entities, including subsidiaries, partners, and affiliates. Ensure compliance with regulatory requirements and maintain a clear governance structure.
+                                                </p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution-list active" id="kyc">
+                        <div id="wrapper_2" class="orgin-css-hov">
+                            <div id="image-effects-section_1">
+                                <div class="org_wrapper">
+                                    <div class="rd-gird-row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
+                                                <h5 style="color:black;"> KYC (Know Your Customer) </h5>
+                                                <p>
+                                                    Stay compliant with legal and regulatory obligations by collecting and verifying customer identity information. Easily access and update KYC data as needed
+                                                </p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution-list active" id="eletter">
+                        <div id="wrapper_2" class="orgin-css-hov">
+                            <div id="image-effects-section_1">
+                                <div class="org_wrapper">
+                                    <div class="rd-gird-row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
+                                                <h5 style="color:black;"> eLetter Box </h5>
+                                                <p>
+                                                    Efficiently manage incoming and outgoing correspondence, maintaining an organized record of all communications. Quickly access important emails, letters, and messages.
+
+                                                </p>
+                                                </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -165,7 +224,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 4.Documents : </h5>
+                                                <h5 style="color:black;"> Documents </h5>
                                                 <p>
                                                     Streamline document management by storing, categorizing, and retrieving files within the software. Reduce paper-based processes, leading to improved document organization and accessibility.
                                                 </p>
@@ -183,7 +242,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 5. Scan to Doc (OCR):</h5>
+                                                <h5 style="color:black;"> Scan to Doc (OCR)</h5>
                                                 <p>
                                                         Digitize physical documents with Optical Character Recognition (OCR) technology. Make scanned documents searchable and editable, saving time on manual data entry.
                                                     </p>
@@ -202,7 +261,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 6. eSignature : </h5>
+                                                <h5 style="color:black;"> eSignature </h5>
                                                 <p>
                                                         Accelerate approval processes with electronic signatures. Easily sign and send documents for signature, eliminating the need for physical paperwork and expediting workflows.
                                                     </p>
@@ -221,7 +280,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 7. Workspace</h5>
+                                                <h5 style="color:black;"> Workspace</h5>
                                                 <p>Collaborate efficiently within a dedicated workspace. Share documents, tasks, and information with team members, enhancing project coordination and team productivity.
                                                     </p>
                                             </div>
@@ -238,7 +297,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 8. Pipeline </h5>
+                                                <h5 style="color:black;"> Pipeline </h5>
                                                 <p>Visualize and manage sales opportunities within a pipeline view. Monitor the progress of deals, make informed decisions, and forecast sales with greater accuracy.
                                                     </p>
                                             </div>
@@ -255,7 +314,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 9. Projects : </h5>
+                                                <h5 style="color:black;"> Projects </h5>
                                                     <p>Effectively plan, track, and collaborate on projects. Assign tasks, set milestones, and monitor project progress, ensuring timely completion and successful outcomes.</p>
 
                                             </div>
@@ -273,7 +332,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 abcd">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 10. Calendar:</h5>
+                                                <h5 style="color:black;"> Calendar</h5>
                                                     <p>Keep organized with a shared calendar. Schedule meetings, appointments, and events, and synchronize important dates across your organization for improved time management.
 
                                                     </p>
@@ -291,7 +350,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;">11. To-Do Tasks:</h5>
+                                                <h5 style="color:black;">To-Do Tasks</h5>
                                                     <p>
                                                         Create and manage tasks with ease, ensuring that important assignments are completed on time. Prioritize tasks, set deadlines, and track progress effortlessly.
                                                     </p>
@@ -309,7 +368,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 12. Reminders:</h5>
+                                                <h5 style="color:black;"> Reminders</h5>
                                                     <p>
                                                         Set reminders for critical dates and tasks, reducing the risk of missing deadlines or overlooking essential responsibilities.
                                                     </p>
@@ -327,7 +386,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 abcd">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 13. Email Client:</h5>
+                                                <h5 style="color:black;"> Email Client</h5>
                                                 <p>Access and manage your email directly within the software. Stay connected and organized with integrated email tools, enhancing communication efficiency.</p>
                                             </div>
                                         </div>
@@ -344,7 +403,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding: 10px;">
-                                                <h5 style="color:black;"> 14. Smart Emailer:</h5>
+                                                <h5 style="color:black;"> Smart Emailer</h5>
                                                     <p>Automate email campaigns and personalize communications with clients and leads. Save time and increase engagement with targeted email marketing.</p>
 
                                             </div>
@@ -361,7 +420,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding: 10px;">
-                                                <h5 style="color:black;"> 15. Client Portal:</h5>
+                                                <h5 style="color:black;"> Client Portal</h5>
                                                     <p>Stay ahead of the game and provide one stop access for your clients. Provide clients with secure access to their information. Enhance transparency by allowing clients to review documents, check invoices, and communicate within a dedicated portal.</p>
 
                                             </div>
@@ -378,7 +437,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding: 10px;">
-                                                <h5 style="color:black;"> 16. Client Enquiry Chat:</h5>
+                                                <h5 style="color:black;"> Client Enquiry Chat</h5>
                                                     <p>Enable real-time chat for client inquiries. Offer instant support and responses, improving customer service and client satisfaction.</p>
 
                                             </div>
@@ -396,7 +455,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 1. Quotation:</h5>
+                                                <h5 style="color:black;"> Quotation</h5>
                                                 <p>
                                                     Generate and send professional quotes to clients swiftly. Customize quotes, include pricing details, and streamline the sales process.
                                                     </p>
@@ -416,7 +475,7 @@ if($country_code !="sg" && $country_code !="in"){
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
                                                 
-                                                <h5 style="color:black;"> 2. Invoice: </h5>
+                                                <h5 style="color:black;"> Invoice</h5>
                                                 <p>
                                                     Create, send, and track invoices seamlessly. Manage billing efficiently, reduce administrative overhead, and maintain accurate records of financial transactions.
 
@@ -435,7 +494,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 3. Payments:</h5>
+                                                <h5 style="color:black;"> Payments</h5>
                                             <p>
                                                 Offer multiple payment options for client convenience. Simplify the payment process, accelerate cash flow, and enhance client experience.
                                                     </p>
@@ -452,7 +511,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 4.Receipts: </h5>
+                                                <h5 style="color:black;"> Receipts</h5>
                                                 <p>
                                                     Issue receipts to all customers as and when needed digitally, They are securely stored in one central location. This eliminates the need for physical receipt storage, reducing clutter and ensuring that important financial documentation is easily accessible when needed.
                                                 </p>
@@ -470,7 +529,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 5. SOA (Statement of Account):</h5>
+                                                <h5 style="color:black;"> SOA (Statement of Account)</h5>
                                                 <p>
                                                     Provide clients with clear and detailed statements of their account activity. Enhance transparency by summarizing financial transactions and balances.
                                                     </p>
@@ -489,7 +548,7 @@ if($country_code !="sg" && $country_code !="in"){
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> 6. Multiple Currencies: </h5>
+                                                <h5 style="color:black;"> Multiple Currencies</h5>
                                                 <p>
                                                         Conduct international business seamlessly by supporting multiple currencies. Simplify currency exchange and financial reporting for global operations.
                                                     </p>

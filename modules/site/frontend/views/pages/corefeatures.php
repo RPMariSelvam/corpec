@@ -81,10 +81,7 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="coreFeature_content">
                 <h3 class="coreFeature_h3tage-heading">
-                    Organise all your clients, communications, projects, documents, signatures, Reminders, payment,
-                    staff matters
-                    <br>
-                    all in one secure system
+                   Organise all your clients, communications, projects, documents, eSignatures, Reminders, payment, staff matters all in one secure system
                 </h3>
             </div>
         </div>
@@ -93,7 +90,6 @@
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="coreFeature_content">
-                <h3 class="coreFeature_h3tage-heading">Productivity & Efficiency</h3>
                 <div class="col-md-6">
                     <img class="img-responsive" src="images/Inventory-Order-taking.png"
                          alt="inventory tracking software">
@@ -108,7 +104,7 @@
                                 organization, and Invoice and payment processes. It centralizes essential functions,
                                 enables real-time insights, and promotes seamless communication with clients, optimizing
                                 business operations</p>
-                            <b><a target="_blank" href="#">more</a></b>
+                            <b><a target="_blank" href="https://corpsec.app/solutions">more</a></b>
 
                         </div>
                     </div>
@@ -120,8 +116,6 @@
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="coreFeature_content">
-                <h3 class="coreFeature_h3tage-heading"> Marketing & Outreach</h3>
-
                 <div class="col-md-6">
                     <div class="content-area">
                         <div class="content">
@@ -130,7 +124,7 @@
                                 Instagram, Twitter, and TikTok. Consolidate all chats from FB Messenger, IG, TikTok,
                                 WhatsApp, SMS, Telegram, WeChat, and Google Chat all with the power of ChatGPT AI for
                                 streamlined communication. Boost your business today!.</p>
-                            <b><a target="_blank" href="#">Learn more</a></b>
+                            <b><a target="_blank" href="https://corpsec.app/solutions">Learn more</a></b>
                         </div>
                     </div>
 

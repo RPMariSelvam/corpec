@@ -64,6 +64,11 @@ $currenturl = Yii::$app->request->url;
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title><?=$this->title;?></title>
+        <style type="text/css">
+            img.sitelogo{
+                margin-left:-5% !important;
+            }
+        </style>
         <?php $this->head()?>
         <script>
             var AppConfigs = function () {
@@ -176,7 +181,7 @@ $currenturl = Yii::$app->request->url;
                                                 <li class="submenu-li">
                                                     <a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl("/omni-channel-for-multi-channel-ecommerce") */?>">
                                                     <img class="imgloadedmultiChannelIcon" imageName="multiChannelIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/multiChannelIcon-grey.png" alt="CorpSec Heart">
-                                                    <span><b>Omni Channel eCommerce Solution</b></span>
+                                                    <span><b>CorpSec eCommerce Solution</b></span>
                                                     <p class="menu-descriptions">A solution designed for eCommerce, Retail and wholesale to manage business from a single dashboard. Sell on multiple marketplace like Lazada, Shopee, Amazon, Shopify, WooCommerce, etc. connect to many apps like Xero, mailchimp etc.
                                                     <br><br>
                                                     Choose to automate your staff matters, payroll, CorpSec POS, Vendhq, QuickBooks, sell on CorpSec eCommerce etc.</p>
@@ -234,7 +239,7 @@ $currenturl = Yii::$app->request->url;
                                                 </li>
                                                 <li class="product-submenu menu-crm"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/crm") */?>"> <img class="imgloadedcrmIcon" imageName="crmIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/crmIcon-grey.png" alt="CorpSec Heart">
                                                         <div>
-                                                            <span>Omni Channel CRM</span>
+                                                            <span>CorpSec CRM</span>
                                                             <p class="menu-descriptions">Automate & enhance Customer Relationship to increase sales</p>
                                                         </div>
                                                     </a>
@@ -349,7 +354,7 @@ $currenturl = Yii::$app->request->url;
                                                     <li class="submenu-li">
                                                         <a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl("/omni-channel-for-multi-channel-ecommerce") */?>">
                                                             <img class="imgloadedmultiChannelIcon" imageName="multiChannelIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/multiChannelIcon-grey.png" alt="CorpSec Heart">
-                                                            <span><b>Omni Channel eCommerce Solution</b></span>
+                                                            <span><b>CorpSec eCommerce Solution</b></span>
                                                             <p class="menu-descriptions">A solution designed for eCommerce, Retail and wholesale to manage business from a single dashboard. Sell on multiple marketplace like Lazada, Shopee, Amazon, Shopify, WooCommerce, etc. connect to many apps like Xero, mailchimp etc.
                                                             <br><br>
                                                             Choose to automate your staff matters, payroll, CorpSec POS, Vendhq, QuickBooks, sell on CorpSec eCommerce etc.</p>
@@ -408,7 +413,7 @@ $currenturl = Yii::$app->request->url;
                                                     </li>
                                                     <li class="product-submenu menu-crm"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/crm") */?>"> <img class="imgloadedcrmIcon" imageName="crmIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/crmIcon-grey.png" alt="CorpSec Heart">
                                                             <div>
-                                                                <span>Omni Channel CRM</span>
+                                                                <span>CorpSec CRM</span>
                                                                 <p class="menu-descriptions">Automate & enhance Customer Relationship to increase sales</p>
                                                             </div>
                                                         </a>
@@ -471,7 +476,7 @@ $currenturl = Yii::$app->request->url;
                                                     <li class="submenu-li">
                                                         <a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl("/omni-channel-for-multi-channel-ecommerce") */?>">
                                                             <img class="imgloadedmultiChannelIcon" imageName="multiChannelIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/multiChannelIcon-grey.png" alt="CorpSec Heart">
-                                                            <span><b>Omni Channel eCommerce Solution</b></span>
+                                                            <span><b>CorpSec eCommerce Solution</b></span>
                                                             <p class="menu-descriptions">A solution designed for eCommerce, Retail and wholesale to manage business from a single dashboard. Sell on multiple marketplace like Lazada, Shopee, Amazon, Shopify, WooCommerce, etc. connect to many apps like Xero, mailchimp etc.
                                                             <br><br>
                                                             Choose to automate your staff matters, payroll, CorpSec POS, Vendhq, QuickBooks, sell on CorpSec eCommerce etc.</p>
@@ -530,7 +535,7 @@ $currenturl = Yii::$app->request->url;
                                                     </li>
                                                     <li class="product-submenu menu-crm"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/crm") */?>"> <img class="imgloadedcrmIcon" imageName="crmIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/crmIcon-grey.png" alt="CorpSec Heart">
                                                             <div>
-                                                                <span>Omni Channel CRM</span>
+                                                                <span>CorpSec CRM</span>
                                                                 <p class="menu-descriptions">Automate & enhance Customer Relationship to increase sales</p>
                                                             </div>
                                                         </a>
