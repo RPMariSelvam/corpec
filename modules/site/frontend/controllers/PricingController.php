@@ -28,12 +28,12 @@ class PricingController extends Controller{
         $currencyCode = Yii::$app->params["countries"][$countryShortCode]["currency_code"];
         $currencySymbol = Yii::$app->params["countries"][$countryShortCode]["currency_symbol"];
 
-        $Tier1InvPlans = ['Startup', 'Agency', 'Enterprise Plan'];
+        $Tier1InvPlans = ['Startup', 'Tiny', 'Enterprise Plan','Small'];
         $InvMonthlyPackages[1] = InventoryPackageModel::find()->where(["planid"=>self::MonthlyPlanID, "country"=>$country, "status"=> '1', "deletestatus" => "No"])->andWhere("stripe_product_id IS NOT NULL AND stripe_plan_id IS NOT NULL AND `type`='IMS'")->andWhere(["name" => $Tier1InvPlans])->orderBy(["priced_monthly" => SORT_ASC])->limit(4)->all();
 
         $InvYearlyPackages[1] = InventoryPackageModel::find()->where(["planid"=>self::YearlyPlanID, "country"=>$country, "status"=> '1', "deletestatus" => "No"])->andWhere("stripe_product_id IS NOT NULL AND stripe_plan_id IS NOT NULL AND `type`='IMS'")->andWhere(["name" => $Tier1InvPlans])->orderBy(["priced_monthly" =>SORT_ASC])->limit(4)->all();
 
-        $Tier2InvPlans = ['Startup', 'Agency', 'Enterprise Plan'];
+        $Tier2InvPlans = ['Startup', 'Tiny', 'Enterprise Plan','Small'];
         $InvMonthlyPackages[2] = InventoryPackageModel::find()->where(["planid"=>self::MonthlyPlanID, "country"=>$country, "status"=> '1', "deletestatus" => "No"])->andWhere("stripe_product_id IS NOT NULL AND stripe_plan_id IS NOT NULL AND `type`='IMS'")->andWhere(["name" => $Tier2InvPlans])->orderBy(["priced_monthly" =>SORT_ASC])->limit(4)->all();
 
         $InvYearlyPackages[2] = InventoryPackageModel::find()->where(["planid"=>self::YearlyPlanID, "country"=>$country, "status"=> '1', "deletestatus" => "No"])->andWhere("stripe_product_id IS NOT NULL AND stripe_plan_id IS NOT NULL AND `type`='IMS'")->andWhere(["name" => $Tier2InvPlans])->orderBy(["priced_monthly" =>SORT_ASC])->limit(4)->all();
