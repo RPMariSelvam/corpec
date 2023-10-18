@@ -33,17 +33,9 @@ class PricingController extends Controller{
 
         $InvYearlyPackages[1] = InventoryPackageModel::find()->where(["planid"=>self::YearlyPlanID, "country"=>$country, "status"=> '1', "deletestatus" => "No"])->andWhere("stripe_product_id IS NOT NULL AND stripe_plan_id IS NOT NULL AND `type`='IMS'")->andWhere(["name" => $Tier1InvPlans])->orderBy(["priced_monthly" =>SORT_ASC])->limit(4)->all();
 
-        $Tier2InvPlans = ['Startup', 'Tiny', 'Enterprise Plan','Small'];
-        $InvMonthlyPackages[2] = InventoryPackageModel::find()->where(["planid"=>self::MonthlyPlanID, "country"=>$country, "status"=> '1', "deletestatus" => "No"])->andWhere("stripe_product_id IS NOT NULL AND stripe_plan_id IS NOT NULL AND `type`='IMS'")->andWhere(["name" => $Tier2InvPlans])->orderBy(["priced_monthly" =>SORT_ASC])->limit(4)->all();
+     
 
-        $InvYearlyPackages[2] = InventoryPackageModel::find()->where(["planid"=>self::YearlyPlanID, "country"=>$country, "status"=> '1', "deletestatus" => "No"])->andWhere("stripe_product_id IS NOT NULL AND stripe_plan_id IS NOT NULL AND `type`='IMS'")->andWhere(["name" => $Tier2InvPlans])->orderBy(["priced_monthly" =>SORT_ASC])->limit(4)->all();
-
-        $Tier3InvPlans = ['Huge'];
-        $InvMonthlyPackages[3] = InventoryPackageModel::find()->where(["planid"=>self::MonthlyPlanID, "country"=>$country, "status"=> '1', "deletestatus" => "No"])->andWhere("stripe_product_id IS NOT NULL AND stripe_plan_id IS NOT NULL AND `type`='IMS'")->andWhere(["name" => $Tier3InvPlans])->orderBy(["priced_monthly" =>SORT_ASC])->limit(1)->all();
-
-        $InvYearlyPackages[3] = InventoryPackageModel::find()->where(["planid"=>self::YearlyPlanID, "country"=>$country, "status"=> '1', "deletestatus" => "No"])->andWhere("stripe_product_id IS NOT NULL AND stripe_plan_id IS NOT NULL AND `type`='IMS'")->andWhere(["name" => $Tier3InvPlans])->orderBy(["priced_monthly" =>SORT_ASC])->limit(1)->all();
-
-
+      
         $AddonsModels = ImsAddons::find()->where(["planid"=>self::MonthlyPlanID,  "country"=>$country, "status"=> '1', "deletestatus" => "No"])->indexBy('name')->all();
 
 
