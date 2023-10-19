@@ -74,8 +74,8 @@ $(document).ready(function() {
             $(this).addClass('pricebutton_act');
             $('.pricing-label-monthly').css('color', '#c02434');
             $('.pricing-label-Annually').css('color', '#898989');
-            $(this).attr('data-plan-id', 3);
-            $('#plan_id').val(3);
+            $(this).attr('data-plan-id', 2);
+            $('#plan_id').val(2);
         } else {
             $('.monthlyPlanInput').hide();
             $('.yearlyPlanInput').show();

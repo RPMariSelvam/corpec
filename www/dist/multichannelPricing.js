@@ -657,9 +657,10 @@ function initLoadSelectedItems() {
         $('li'+selectedTier).show();
     }
     if(sessionStorage.getItem('plan_id')){
+        console.log(sessionStorage.getItem('plan_id'))
         let plan_id = sessionStorage.getItem('plan_id')
         $('input#plan_id').val(plan_id);
-        if(plan_id == 3){
+        if(plan_id == 2){
             $('input#yearly_monthly_switch').attr('checked', true)
         }
         $('input#yearly_monthly_switch').trigger('change')

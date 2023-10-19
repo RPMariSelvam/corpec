@@ -441,13 +441,13 @@ $StorageAddonPrice = CommonModel::CurrencyFormat($AddonsModels['Storage']->price
                             <span class="pricing-label-Annually">Annually <br>Get 2 months FREE </span>
                         </label>
                         <label class="switch">
-                            <input type="checkbox" id="yearly_monthly_switch" data-plan-id="<?= $YearlyPlan->planid ?>">
+                            <input type="checkbox" id="yearly_monthly_switch" data-plan-id="<?= $MonthlyPlan->planid ?>">
                             <span class="slider round"></span>
                         </label>
                         <label class="monthlyLabel">
                             <span class="pricing-label-monthly">Monthly</span>
                         </label>
-                        <input id="plan_id" type="hidden" name="plan_id" value="<?= $YearlyPlan->planid ?>"/>
+                        <input id="plan_id" type="hidden" name="plan_id" value="<?= $MonthlyPlan->planid ?>"/>
                     </div>
                 </div>
             </div>
@@ -915,7 +915,7 @@ $StorageAddonPrice = CommonModel::CurrencyFormat($AddonsModels['Storage']->price
                                                     </div>
                                                     <div class="price-value price-value-monthly">
 														<span style="font-size:24px !important">$</span>
-														<span class="price-monthly">1,297</span>
+														<span class="price-monthly">997</span>
 
                                                         <span class="subtitle">per month</span>
                                                         <span class="subtitle">billed monthly</span>
@@ -923,7 +923,7 @@ $StorageAddonPrice = CommonModel::CurrencyFormat($AddonsModels['Storage']->price
 													</div>
                                                     <div class="price-value price-value-yearly">
 														<span style="font-size:24px !important">$</span>
-														<span class="price-monthly">1,2970</span>
+														<span class="price-monthly">9,970</span>
                                                         <span class="subtitle">per month</span>
                                                         <span class="subtitle">billed annually</span>
                                                         <span class="subtitle">&nbsp;</span>
@@ -1339,5 +1339,11 @@ $StorageAddonPrice = CommonModel::CurrencyFormat($AddonsModels['Storage']->price
     <?php ActiveForm::end();  ?>
 </div>
 <?php
+$this->registerJs("
+console.log(sessionStorage.getItem('plan_id'))
+    if(!(sessionStorage.getItem('plan_id'))){
+        sessionStorage.setItem('plan_id','2')
+    }
+", $this::POS_END, ''); 
 $this->registerJsFile(Yii::$app->urlManager->createAbsoluteUrl("dist/accounting.min.js"), ['depends' => [ResourcesAsset::className()], 'position' => \yii\web\View::POS_END]);
 $this->registerJsFile(Yii::$app->urlManager->createAbsoluteUrl("dist/multichannelPricing.js"), ['depends' => [ResourcesAsset::className()], 'position' => \yii\web\View::POS_END]);
