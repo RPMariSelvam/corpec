@@ -59,10 +59,11 @@ $currenturl = Yii::$app->request->url;
 
         <link rel="shortcut icon" href="<?php echo Yii::$app->request->baseUrl; ?>/favicon.png" type="image/x-icon" />
         <meta charset="UTF-8" />
-        <meta property="og:image" content="<?php echo Yii::$app->request->baseUrl; ?>/CorpSec-logo.png" />
+        <meta property="og:image" content="<?php echo Yii::$app->request->baseUrl; ?>/ezCoSec_logo.png" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title><?=$this->title;?></title>
         <style type="text/css">
             img.sitelogo{
@@ -88,7 +89,7 @@ $currenturl = Yii::$app->request->url;
             {
                "@context": "http://schema.org",
                "@type": "LocalBusiness",
-               "name": "CorpSec",
+               "name": "ezCoSec",
                "address": {
                    "@type": "PostalAddress",
                    "streetAddress": "55 Lavender Street",
@@ -96,10 +97,10 @@ $currenturl = Yii::$app->request->url;
                    "addressRegion": "Singapore",
                    "postalCode": "338713"
                },
-               "image": "https://www.corpsec.app/images/CorpSec-logo.png",
-               "email": "sales@corpsec.app",
+               "image": "https://www.ezCoSec.app/images/ezCoSec_logo.png",
+               "email": "sales@ezCoSec.app",
                "telePhone": " +65 8284 8659 ",
-               "url": "https://www.corpsec.app/",
+               "url": "https://www.ezCoSec.app/",
                "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-07:00",
                "openingHoursSpecification": [ {
                    "@type": "OpeningHoursSpecification",
@@ -164,7 +165,7 @@ $currenturl = Yii::$app->request->url;
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="<?= Url::base(true); ?>">
-                            <img class="sitelogo" alt="CorpSec is a powerful software that centralizes business operations" src="<?php echo Yii::$app->request->baseUrl; ?>/images/CorpSec-logo.png" style="    margin-left: -2%;">
+                            <img class="sitelogo" alt="ezCoSec is a powerful software that centralizes business operations" src="<?php echo Yii::$app->request->baseUrl; ?>/images/ezCoSec_logo.png" style="    margin-left: -2%;">
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -180,11 +181,11 @@ $currenturl = Yii::$app->request->url;
                                             <ul class="list-unstyled">
                                                 <li class="submenu-li">
                                                     <a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl("/omni-channel-for-multi-channel-ecommerce") */?>">
-                                                    <img class="imgloadedmultiChannelIcon" imageName="multiChannelIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/multiChannelIcon-grey.png" alt="CorpSec Heart">
-                                                    <span><b>CorpSec eCommerce Solution</b></span>
+                                                    <img class="imgloadedmultiChannelIcon" imageName="multiChannelIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/multiChannelIcon-grey.png" alt="ezCoSec Heart">
+                                                    <span><b>ezCoSec eCommerce Solution</b></span>
                                                     <p class="menu-descriptions">A solution designed for eCommerce, Retail and wholesale to manage business from a single dashboard. Sell on multiple marketplace like Lazada, Shopee, Amazon, Shopify, WooCommerce, etc. connect to many apps like Xero, mailchimp etc.
                                                     <br><br>
-                                                    Choose to automate your staff matters, payroll, CorpSec POS, Vendhq, QuickBooks, sell on CorpSec eCommerce etc.</p>
+                                                    Choose to automate your staff matters, payroll, ezCoSec POS, Vendhq, QuickBooks, sell on ezCoSec eCommerce etc.</p>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -193,14 +194,14 @@ $currenturl = Yii::$app->request->url;
                                         <div class="col-md-4 col-xl-4 sub-menu middle-sub-menu">
                                             <ul class="list-unstyled">
                                                 <li class="product-submenu menu-inventory"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/inventory-management-software") */?>">
-                                                        <img class="imgloadedinventoryIcon" imageName="inventoryIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/inventoryIcon-grey.png" alt="CorpSec Heart">
+                                                        <img class="imgloadedinventoryIcon" imageName="inventoryIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/inventoryIcon-grey.png" alt="ezCoSec Heart">
                                                         <div>
                                                             <span>Inventory Management </span>
                                                             <p class="menu-descriptions">Manage Stocks centrally while selling in multiple channels</p>
                                                         </div>
                                                     </a></li>
                                                 <li class="product-submenu menu-ecommerce"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/ecommerce") */?>">
-                                                        <img class="imgloadedeCommerceIcon" imageName="eCommerceIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/eCommerceIcon-grey.png" alt="CorpSec Heart">
+                                                        <img class="imgloadedeCommerceIcon" imageName="eCommerceIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/eCommerceIcon-grey.png" alt="ezCoSec Heart">
                                                         <div>
                                                             <span>eCommerce Store </span>
                                                             <p class="menu-descriptions">Start selling your products on your own branded website</p>
@@ -209,7 +210,7 @@ $currenturl = Yii::$app->request->url;
                                                 </li>
 
                                                 <li class="product-submenu menu-ecommerce"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl("/b2b-ecommerce-platform") */?>">
-                                                    <img class="imgloadedB2BeCommerceIcon" imageName="B2BeCommerceIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/B2BeCommerceIcon-grey.png" alt="CorpSec Heart">
+                                                    <img class="imgloadedB2BeCommerceIcon" imageName="B2BeCommerceIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/B2BeCommerceIcon-grey.png" alt="ezCoSec Heart">
                                                     <div>
                                                         <span>B2B Commerce Platform</span>
                                                         <p class="menu-descriptions">A private B2B store for your wholesale business</p>
@@ -222,24 +223,24 @@ $currenturl = Yii::$app->request->url;
                                             <ul class="list-unstyled">
                                                 <li class="product-submenu menu-pos"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/pos") */?>">
 
-                                                        <img class="imgloadedposIcon" imageName="posIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/posIcon-grey.png" alt="CorpSec Heart">
+                                                        <img class="imgloadedposIcon" imageName="posIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/posIcon-grey.png" alt="ezCoSec Heart">
                                                         <div>
                                                             <span>Point of Sale (POS)</span>
-                                                            <p class="menu-descriptions">Start selling in your brick & mortar stores using CorpSec POS</p>
+                                                            <p class="menu-descriptions">Start selling in your brick & mortar stores using ezCoSec POS</p>
                                                         </div>
                                                     </a>
                                                 </li>
                                                 <li class="product-submenu menu-hrm-payroll"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/hrm") */?>">
-                                                        <img class="imgloadedstaffIcon" imageName="staffIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/staffIcon-grey.png" alt="CorpSec Heart">
+                                                        <img class="imgloadedstaffIcon" imageName="staffIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/staffIcon-grey.png" alt="ezCoSec Heart">
                                                         <div>
                                                             <span>Staff Management (HRM)</span>
                                                             <p class="menu-descriptions">Manage all aspects of Staffs in business</p>
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li class="product-submenu menu-crm"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/crm") */?>"> <img class="imgloadedcrmIcon" imageName="crmIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/crmIcon-grey.png" alt="CorpSec Heart">
+                                                <li class="product-submenu menu-crm"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/crm") */?>"> <img class="imgloadedcrmIcon" imageName="crmIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/crmIcon-grey.png" alt="ezCoSec Heart">
                                                         <div>
-                                                            <span>CorpSec CRM</span>
+                                                            <span>ezCoSec CRM</span>
                                                             <p class="menu-descriptions">Automate & enhance Customer Relationship to increase sales</p>
                                                         </div>
                                                     </a>
@@ -285,21 +286,21 @@ $currenturl = Yii::$app->request->url;
                         if((strstr($currenturl ,"/crm") !== false)) {
                             ?>
                             <a class="navbar-brand" href="<?= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/crm") ?>">
-                                <img id="crmimg" class="sublogo" alt="CorpSec CRM System Logo" src="<?php echo $this->publicHtml.'/images/'.$crmimg ; ?>"  >
+                                <img id="crmimg" class="sublogo" alt="ezCoSec CRM System Logo" src="<?php echo $this->publicHtml.'/images/'.$crmimg ; ?>"  >
                             </a>
                         <?php
                         }
                          if((strstr($currenturl ,'/ecommerce') !== false) ) {
                             ?>
                              <a class="navbar-brand" href="<?= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/ecommerce") ?>">
-                                 <img id="ecommerceimg" class="sublogo" alt="CorpSec eCommerce System Logo" src="<?php echo $this->publicHtml.'/images/'.$ecommerceimg ; ?>"  >
+                                 <img id="ecommerceimg" class="sublogo" alt="ezCoSec eCommerce System Logo" src="<?php echo $this->publicHtml.'/images/'.$ecommerceimg ; ?>"  >
                              </a>
                         <?php
                         }
                         if((strstr($currenturl ,'/inventory') !== false)) {
                             ?>
                             <a class="navbar-brand" href="<?= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/inventory-management-software") ?>">
-                                <img id="inventoryimg" class="sublogo" alt="CorpSec Inventory System Logo" src="<?php echo $this->publicHtml.'/images/'.$inventoryimg ; ?>"  >
+                                <img id="inventoryimg" class="sublogo" alt="ezCoSec Inventory System Logo" src="<?php echo $this->publicHtml.'/images/'.$inventoryimg ; ?>"  >
                             </a>
 
                         <?php
@@ -307,14 +308,14 @@ $currenturl = Yii::$app->request->url;
                         if((strstr($currenturl ,'/hrm') !== false)) {
                             ?>
                             <a class="navbar-brand" href="<?= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/hrm") ?>">
-                                <img id="hrmimg" class="sublogo" alt="CorpSec HRM & PayRoll" src="<?php echo $this->publicHtml.'/images/'.$hrmimg ; ?>"  >
+                                <img id="hrmimg" class="sublogo" alt="ezCoSec HRM & PayRoll" src="<?php echo $this->publicHtml.'/images/'.$hrmimg ; ?>"  >
                             </a>
                         <?php
                         }
                         if((strstr($currenturl ,'/pos') !== false)) {
                             ?>
                             <a class="navbar-brand" href="<?= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/pos") ?>">
-                                <img id="posimg" class="sublogo" alt="CorpSec POS - Point Of Sale" src="<?php echo $this->publicHtml.'/images/'.$posimg ; ?>"  >
+                                <img id="posimg" class="sublogo" alt="ezCoSec POS - Point Of Sale" src="<?php echo $this->publicHtml.'/images/'.$posimg ; ?>"  >
                             </a>
                         <?php
                         }                        ?>
@@ -337,7 +338,7 @@ $currenturl = Yii::$app->request->url;
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="<?= Url::base(true); ?>">
-                                <img class="sitelogo" alt="CorpSec is a powerful software that centralizes business operations" src="<?= $this->publicHtml; ?>/images/CorpSec-logo.png" >
+                                <img class="sitelogo" alt="ezCoSec is a powerful software that centralizes business operations" src="<?= $this->publicHtml; ?>/images/ezCoSec_logo.png" >
                             </a>
                         </div>
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-3">
@@ -353,11 +354,11 @@ $currenturl = Yii::$app->request->url;
                                                 <ul class="list-unstyled">
                                                     <li class="submenu-li">
                                                         <a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl("/omni-channel-for-multi-channel-ecommerce") */?>">
-                                                            <img class="imgloadedmultiChannelIcon" imageName="multiChannelIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/multiChannelIcon-grey.png" alt="CorpSec Heart">
-                                                            <span><b>CorpSec eCommerce Solution</b></span>
+                                                            <img class="imgloadedmultiChannelIcon" imageName="multiChannelIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/multiChannelIcon-grey.png" alt="ezCoSec Heart">
+                                                            <span><b>ezCoSec eCommerce Solution</b></span>
                                                             <p class="menu-descriptions">A solution designed for eCommerce, Retail and wholesale to manage business from a single dashboard. Sell on multiple marketplace like Lazada, Shopee, Amazon, Shopify, WooCommerce, etc. connect to many apps like Xero, mailchimp etc.
                                                             <br><br>
-                                                            Choose to automate your staff matters, payroll, CorpSec POS, Vendhq, QuickBooks, sell on CorpSec eCommerce etc.</p>
+                                                            Choose to automate your staff matters, payroll, ezCoSec POS, Vendhq, QuickBooks, sell on ezCoSec eCommerce etc.</p>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -366,7 +367,7 @@ $currenturl = Yii::$app->request->url;
                                             <div class="col-md-4 col-xl-4 sub-menu middle-sub-menu">
                                                 <ul class="list-unstyled">
                                                     <li class="product-submenu menu-inventory"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/inventory-management-software") */?>">
-                                                            <img class="imgloadedinventoryIcon" imageName="inventoryIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/inventoryIcon-grey.png" alt="CorpSec Heart">
+                                                            <img class="imgloadedinventoryIcon" imageName="inventoryIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/inventoryIcon-grey.png" alt="ezCoSec Heart">
                                                             <div>
                                                                 <span>Inventory Management </span>
                                                                 <p class="menu-descriptions">Manage Stocks centrally while selling in multiple channels</p>
@@ -374,7 +375,7 @@ $currenturl = Yii::$app->request->url;
                                                         </a>
                                                     </li>
                                                     <li class="product-submenu menu-ecommerce"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/ecommerce") */?>">
-                                                            <img class="imgloadedeCommerceIcon" imageName="eCommerceIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/eCommerceIcon-grey.png" alt="CorpSec Heart">
+                                                            <img class="imgloadedeCommerceIcon" imageName="eCommerceIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/eCommerceIcon-grey.png" alt="ezCoSec Heart">
                                                             <div>
                                                                 <span>eCommerce Store </span>
                                                                 <p class="menu-descriptions">Start selling your products on your own branded website</p>
@@ -383,7 +384,7 @@ $currenturl = Yii::$app->request->url;
                                                     </li>
 
                                                     <li class="product-submenu menu-ecommerce"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl("/b2b-ecommerce-platform") */?>">
-                                                            <img class="imgloadedB2BeCommerceIcon" imageName="B2BeCommerceIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/B2BeCommerceIcon-grey.png" alt="CorpSec Heart">
+                                                            <img class="imgloadedB2BeCommerceIcon" imageName="B2BeCommerceIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/B2BeCommerceIcon-grey.png" alt="ezCoSec Heart">
                                                             <div>
                                                                 <span>B2B Commerce Platform</span>
                                                                 <p class="menu-descriptions">A private B2B store for your wholesale business</p>
@@ -396,24 +397,24 @@ $currenturl = Yii::$app->request->url;
                                                 <ul class="list-unstyled">
                                                     <li class="product-submenu menu-pos"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/pos") */?>">
 
-                                                            <img class="imgloadedposIcon" imageName="posIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/posIcon-grey.png" alt="CorpSec Heart">
+                                                            <img class="imgloadedposIcon" imageName="posIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/posIcon-grey.png" alt="ezCoSec Heart">
                                                             <div>
                                                                 <span>Point of Sale (POS)</span>
-                                                                <p class="menu-descriptions">Start selling in your brick & mortar stores using CorpSec POS</p>
+                                                                <p class="menu-descriptions">Start selling in your brick & mortar stores using ezCoSec POS</p>
                                                             </div>
                                                         </a>
                                                     </li>
                                                     <li class="product-submenu menu-hrm-payroll"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/hrm") */?>">
-                                                            <img class="imgloadedstaffIcon" imageName="staffIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/staffIcon-grey.png" alt="CorpSec Heart">
+                                                            <img class="imgloadedstaffIcon" imageName="staffIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/staffIcon-grey.png" alt="ezCoSec Heart">
                                                             <div>
                                                                 <span>Staff Management (HRM)</span>
                                                                 <p class="menu-descriptions">Manage all aspects of Staffs in business</p>
                                                             </div>
                                                         </a>
                                                     </li>
-                                                    <li class="product-submenu menu-crm"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/crm") */?>"> <img class="imgloadedcrmIcon" imageName="crmIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/crmIcon-grey.png" alt="CorpSec Heart">
+                                                    <li class="product-submenu menu-crm"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/crm") */?>"> <img class="imgloadedcrmIcon" imageName="crmIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/crmIcon-grey.png" alt="ezCoSec Heart">
                                                             <div>
-                                                                <span>CorpSec CRM</span>
+                                                                <span>ezCoSec CRM</span>
                                                                 <p class="menu-descriptions">Automate & enhance Customer Relationship to increase sales</p>
                                                             </div>
                                                         </a>
@@ -459,7 +460,7 @@ $currenturl = Yii::$app->request->url;
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="<?= Url::base(true); ?>">
-                                <img alt="CorpSec is a powerful software that centralizes business operations" src="<?= $this->publicHtml; ?>/images/CorpSec-logo.png" style="height: 40px !important;">
+                                <img alt="ezCoSec is a powerful software that centralizes business operations" src="<?= $this->publicHtml; ?>/images/ezCoSec_logo.png" style="height: 40px !important;">
                             </a>
                         </div>
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-4">
@@ -475,11 +476,11 @@ $currenturl = Yii::$app->request->url;
                                                 <ul class="list-unstyled">
                                                     <li class="submenu-li">
                                                         <a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl("/omni-channel-for-multi-channel-ecommerce") */?>">
-                                                            <img class="imgloadedmultiChannelIcon" imageName="multiChannelIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/multiChannelIcon-grey.png" alt="CorpSec Heart">
-                                                            <span><b>CorpSec eCommerce Solution</b></span>
+                                                            <img class="imgloadedmultiChannelIcon" imageName="multiChannelIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/multiChannelIcon-grey.png" alt="ezCoSec Heart">
+                                                            <span><b>ezCoSec eCommerce Solution</b></span>
                                                             <p class="menu-descriptions">A solution designed for eCommerce, Retail and wholesale to manage business from a single dashboard. Sell on multiple marketplace like Lazada, Shopee, Amazon, Shopify, WooCommerce, etc. connect to many apps like Xero, mailchimp etc.
                                                             <br><br>
-                                                            Choose to automate your staff matters, payroll, CorpSec POS, Vendhq, QuickBooks, sell on CorpSec eCommerce etc.</p>
+                                                            Choose to automate your staff matters, payroll, ezCoSec POS, Vendhq, QuickBooks, sell on ezCoSec eCommerce etc.</p>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -488,7 +489,7 @@ $currenturl = Yii::$app->request->url;
                                             <div class="col-md-4 col-xl-4 sub-menu middle-sub-menu">
                                                 <ul class="list-unstyled">
                                                     <li class="product-submenu menu-inventory"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/inventory-management-software") */?>">
-                                                            <img class="imgloadedinventoryIcon" imageName="inventoryIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/inventoryIcon-grey.png" alt="CorpSec Heart">
+                                                            <img class="imgloadedinventoryIcon" imageName="inventoryIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/inventoryIcon-grey.png" alt="ezCoSec Heart">
                                                             <div>
                                                                 <span>Inventory Management </span>
                                                                 <p class="menu-descriptions">Manage Stocks centrally while selling in multiple channels</p>
@@ -496,7 +497,7 @@ $currenturl = Yii::$app->request->url;
                                                         </a>
                                                     </li>
                                                     <li class="product-submenu menu-ecommerce"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/ecommerce") */?>">
-                                                            <img class="imgloadedeCommerceIcon" imageName="eCommerceIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/eCommerceIcon-grey.png" alt="CorpSec Heart">
+                                                            <img class="imgloadedeCommerceIcon" imageName="eCommerceIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/eCommerceIcon-grey.png" alt="ezCoSec Heart">
                                                             <div>
                                                                 <span>eCommerce Store </span>
                                                                 <p class="menu-descriptions">Start selling your products on your own branded website</p>
@@ -505,7 +506,7 @@ $currenturl = Yii::$app->request->url;
                                                     </li>
 
                                                     <li class="product-submenu menu-ecommerce"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl("/b2b-ecommerce-platform") */?>">
-                                                            <img class="imgloadedB2BeCommerceIcon" imageName="B2BeCommerceIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/B2BeCommerceIcon-grey.png" alt="CorpSec Heart">
+                                                            <img class="imgloadedB2BeCommerceIcon" imageName="B2BeCommerceIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/B2BeCommerceIcon-grey.png" alt="ezCoSec Heart">
                                                             <div>
                                                                 <span>B2B Commerce Platform</span>
                                                                 <p class="menu-descriptions">A private B2B store for your wholesale business</p>
@@ -518,24 +519,24 @@ $currenturl = Yii::$app->request->url;
                                                 <ul class="list-unstyled">
                                                     <li class="product-submenu menu-pos"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/pos") */?>">
 
-                                                            <img class="imgloadedposIcon" imageName="posIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/posIcon-grey.png" alt="CorpSec Heart">
+                                                            <img class="imgloadedposIcon" imageName="posIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/posIcon-grey.png" alt="ezCoSec Heart">
                                                             <div>
                                                                 <span>Point of Sale (POS)</span>
-                                                                <p class="menu-descriptions">Start selling in your brick & mortar stores using CorpSec POS</p>
+                                                                <p class="menu-descriptions">Start selling in your brick & mortar stores using ezCoSec POS</p>
                                                             </div>
                                                         </a>
                                                     </li>
                                                     <li class="product-submenu menu-hrm-payroll"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/hrm") */?>">
-                                                            <img class="imgloadedstaffIcon" imageName="staffIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/staffIcon-grey.png" alt="CorpSec Heart">
+                                                            <img class="imgloadedstaffIcon" imageName="staffIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/staffIcon-grey.png" alt="ezCoSec Heart">
                                                             <div>
                                                                 <span>Staff Management (HRM)</span>
                                                                 <p class="menu-descriptions">Manage all aspects of Staffs in business</p>
                                                             </div>
                                                         </a>
                                                     </li>
-                                                    <li class="product-submenu menu-crm"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/crm") */?>"> <img class="imgloadedcrmIcon" imageName="crmIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/crmIcon-grey.png" alt="CorpSec Heart">
+                                                    <li class="product-submenu menu-crm"><a href="<?/*= \Yii::$app->urlManager->createAbsoluteUrl($country_isoCode_lowercase."/crm") */?>"> <img class="imgloadedcrmIcon" imageName="crmIcon" src="<?php /*echo Yii::$app->request->baseUrl; */?>/images/crmIcon-grey.png" alt="ezCoSec Heart">
                                                             <div>
-                                                                <span>CorpSec CRM</span>
+                                                                <span>ezCoSec CRM</span>
                                                                 <p class="menu-descriptions">Automate & enhance Customer Relationship to increase sales</p>
                                                             </div>
                                                         </a>
@@ -619,11 +620,11 @@ $currenturl = Yii::$app->request->url;
                                 <h3 class="widget-title">COMMUNITY</h3>
                                 <div class="textwidget">
                                     <p><a href="<?= \Yii::$app->urlManager->createAbsoluteUrl("/partner") ?>">Become a Partner</a><br>
-                                        <a href="https://developer.corpsec.app/docs/#authentication" target="_blank" rel="noopener">Developers</a><br>
-                                        <a href="https://www.facebook.com/CorpSec.Technologies" target="_blank" rel="noopener">Facebook</a><br>
-                                        <a href="https://twitter.com/CorpSec.Technolog" target="_blank" rel="noopener">Twitter</a><br>
-                                        <a href="https://www.linkedin.com/company/CorpSec-technologies-pte-ltd" target="_blank" rel="noopener">LinkedIn</a><br>
-                                        <!-- <a href="https://plus.google.com/+CorpSecTechnologies/posts" target="_blank" rel="noopener">Google +</a> -->
+                                        <a href="https://developer.ezCoSec.app/docs/#authentication" target="_blank" rel="noopener">Developers</a><br>
+                                        <a href="https://www.facebook.com/ezCoSec.Technologies" target="_blank" rel="noopener">Facebook</a><br>
+                                        <a href="https://twitter.com/ezCoSec.Technolog" target="_blank" rel="noopener">Twitter</a><br>
+                                        <a href="https://www.linkedin.com/company/ezCoSec-technologies-pte-ltd" target="_blank" rel="noopener">LinkedIn</a><br>
+                                        <!-- <a href="https://plus.google.com/+ezCoSecTechnologies/posts" target="_blank" rel="noopener">Google +</a> -->
                                     </p>
                                 </div>
                             </div>
@@ -635,8 +636,8 @@ $currenturl = Yii::$app->request->url;
                                 <h3 class="widget-title">ABOUT US</h3>
                                 <div class="textwidget">
                                     <p>
-                                         <a href="<?= \Yii::$app->urlManager->createAbsoluteUrl("/why-asalta") ?>">Why CorpSec?</a><br>
-                                        <!-- <a href="<?= \Yii::$app->urlManager->createAbsoluteUrl("/") ?>about">CorpSec Story</a><br> -->
+                                         <a href="<?= \Yii::$app->urlManager->createAbsoluteUrl("/why-asalta") ?>">Why ezCoSec?</a><br>
+                                        <!-- <a href="<?= \Yii::$app->urlManager->createAbsoluteUrl("/") ?>about">ezCoSec Story</a><br> -->
                                        <a href="<?= \Yii::$app->urlManager->createAbsoluteUrl("/about") ?>">About</a><br>
                                         <a href="<?= \Yii::$app->urlManager->createAbsoluteUrl("/careers") ?>">Careers</a><br>
                                         <a href="<?= \Yii::$app->urlManager->createAbsoluteUrl("/testimonials") ?>">Testimonials</a>
@@ -662,7 +663,7 @@ $currenturl = Yii::$app->request->url;
                         <section class="widget text-2 widget_text">
                             <div class="widget-inner">
                                 <a href="<?= \Yii::$app->urlManager->createAbsoluteUrl("/careers") ?>">
-                                    <img src="<?= \Yii::$app->urlManager->createAbsoluteUrl("/images/hiring.png") ?>" width="200" alt="CorpSec Hiring">
+                                    <img src="<?= \Yii::$app->urlManager->createAbsoluteUrl("/images/hiring.png") ?>" width="200" alt="ezCoSec Hiring">
                                 </a>
                             </div>
                         </section>
@@ -681,10 +682,10 @@ $currenturl = Yii::$app->request->url;
                                     <a href="<?= \Yii::$app->urlManager->createAbsoluteUrl("/disclaimer") ?>">Disclaimer</a>
                                 </span><br>
                                 <span class="footer_credit footerCopyright">© Copyright <?php echo date("Y"); ?>  &nbsp;
-                                    <a href="<?= Url::base(true); ?>" target="_blank" rel="noopener">CorpSec Technologies</a>. All rights reserved.
+                                    <a href="<?= Url::base(true); ?>" target="_blank" rel="noopener">ezCoSec Technologies</a>. All rights reserved.
                                 </span>
                             </p>
-                            <p class="footerMade">Made with &nbsp;&nbsp;<a href="#" target="_blank"><img src="<?= \Yii::$app->urlManager->createAbsoluteUrl("/images/Heart-Icon.png") ?>" alt="CorpSec Heart" >&nbsp;&nbsp;for you</a>
+                            <p class="footerMade">Made with &nbsp;&nbsp;<a href="#" target="_blank"><img src="<?= \Yii::$app->urlManager->createAbsoluteUrl("/images/Heart-Icon.png") ?>" alt="ezCoSec Heart" >&nbsp;&nbsp;for you</a>
                             </p>
                         </div>
                     </div>

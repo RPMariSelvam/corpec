@@ -18,7 +18,7 @@ $this->beginPage();
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<title><?=$this->title;?></title>
-    <meta name="description" content="Sign up for a free 14 day trial | CorpSec is an End-to-End Business Automation Suite." />
+    <meta name="description" content="Sign up for a free 14 day trial | ezCoSec is an End-to-End Business Automation Suite." />
 	<style>
 		form label {
 			display: inline-block;
@@ -80,7 +80,7 @@ $this->beginPage();
             {
                "@context": "http://schema.org",
                "@type": "LocalBusiness",
-               "name": "CorpSec",
+               "name": "ezCoSec",
                "address": {
                    "@type": "PostalAddress",
                    "streetAddress": "55 Lavender Street",
@@ -88,10 +88,10 @@ $this->beginPage();
                    "addressRegion": "Singapore",
                    "postalCode": "338713"
                },
-               "image": "https://www.corpsec.app/images/CorpSec-logo.png",
-               "email": "sales@CorpSec.com",
+               "image": "https://www.ezCoSec.app/images/ezCoSec_logo.png",
+               "email": "sales@ezCoSec.com",
                "telePhone": " +65 8284 8659 ",
-               "url": "https://www.corpsec.app/",
+               "url": "https://www.ezCoSec.app/",
                "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-07:00",
                "openingHoursSpecification": [ {
                    "@type": "OpeningHoursSpecification",
