@@ -91,7 +91,7 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="coreFeature_content">
                 <div class="col-md-6">
-                    <img class="img-responsive" src="images/Inventory-Order-taking.png"
+                    <img class="img-responsive" src="images/home_page_1.png"
                          alt="inventory tracking software">
                 </div>
                 <div class="col-md-6">
@@ -99,7 +99,7 @@
                         <div class="content">
                             <h3>Improve your Productivity & increase the Efficiency of your business with CorpSec your
                                 one centralised software.</h3>
-                            <p style="font-size:15px;">CorpSec improves productivity and efficiency by streamlining lead management, client
+                            <p style="font-size:16px;">CorpSec improves productivity and efficiency by streamlining lead management, client
                                 information access, document handling, digital signature with trackers, task
                                 organization, and Invoice and payment processes. It centralizes essential functions,
                                 enables real-time insights, and promotes seamless communication with clients, optimizing
@@ -119,8 +119,8 @@
                 <div class="col-md-6">
                     <div class="content-area">
                         <div class="content">
-                            <h3>Supercharge your Marketing & Outreach with CorpSec software.</h3>
-                            <p  style="font-size:15px;">Effortlessly send custom automated bulk emails like Mailchimp, schedule and post on FB,
+                            <h3>Supercharge your Marketing & Outreach</h3>
+                            <p  style="font-size:16px;">Effortlessly send custom automated bulk emails like Mailchimp, schedule and post on FB,
                                 Instagram, Twitter, and TikTok. Consolidate all chats from FB Messenger, IG, TikTok,
                                 WhatsApp, SMS, Telegram, WeChat, and Google Chat all with the power of ChatGPT AI for
                                 streamlined communication. Boost your business today!.</p>
@@ -130,7 +130,7 @@
 
                 </div>
                 <div class="col-md-6">
-                    <img class="img-responsive" src="images/Asalta-ecomerce.png" alt="Asalta Ecommerce store">
+                    <img class="img-responsive" src="images/home_page_2.jpeg" alt="Asalta Ecommerce store">
                 </div>
             </div>
         </div>
