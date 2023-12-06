@@ -69,6 +69,10 @@ $currenturl = Yii::$app->request->url;
             img.sitelogo{
                 margin-left:-5% !important;
             }
+            .integration_imageDiv {
+                transform: translate(17%, 0);
+                text-align: center;
+            }
         </style>
         <?php $this->head()?>
         <script>

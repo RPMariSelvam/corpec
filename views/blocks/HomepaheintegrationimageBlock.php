@@ -3,7 +3,7 @@
 ?>
 <div class="row home_integration_image_div">
     <div  class="col-sm-12">
-        <div ><a href="<?=$this->publicHtml;?>/integration" ><h3 class="home_integration_text">We integrate seamlessly with the best online apps</h3></a></div>
+        <div ><a href="<?=$this->publicHtml;?>/integration" ><h3 class="home_integration_text">We integrate seamlessly with many best apps</h3></a></div>
     </div>
     <div class="col-md-12 integration_imageDiv" >
         <?php if(!is_null($this->extraValue("image"))){

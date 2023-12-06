@@ -76,9 +76,7 @@ if($country_code !="sg" && $country_code !="in"){
             <div class="tabbable">
                 <ul class="nav nav-stacked col-md-3">
                     <h3>Productivity &  Efficiency</h3>
-                    <li><a href="#contacts" data-toggle="tab">Contacts</a></li>
-                    <li><a href="#leads" data-toggle="tab">Leads</a></li>
-                    <li><a href="#clients" data-toggle="tab">Clients</a></li>
+                    <li class="active"><a href="#crm" data-toggle="tab">CRM</a></li>
                     <li><a href="#entity" data-toggle="tab">Entity Management</a></li>
                     <li><a href="#kyc" data-toggle="tab">KYC (Know Your Customer)</a></li>
                     <li><a href="#eletter" data-toggle="tab">eLetter Box</a></li>
@@ -105,18 +103,25 @@ if($country_code !="sg" && $country_code !="in"){
                 </ul>
                 <div class="tab-content col-md-9" style="padding: 25px;">
                     <h2 style="margin-left: 3%;">Productivity & Efficiency</h2>
-                    <div class="active solution-list"  id="contacts">
+                    <div class="active solution-list"  id="crm">
                         <div id="wrapper_6" class="orgin-css-hov">
                             <div id="image-effects-section_5">
                                 <div class="org_wrapper">
                                     <div class="rd-gird-row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
-                                                <h5 style="color:black;"> Contacts</h5>
-                                                <p>
-                                                        Efficiently manage and access contact information for clients, leads, and stakeholders, enabling seamless communication and relationship building.
+                                                <h5 style="color:black;text-align: center;margin-bottom: 2%;"> Client Relationship Management (CRM)</h5>
+                                                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                                    <img src="https://corpsec.app/storage/0_corpsec-home-page-banner-img-1500x928_9454ea4d.png" width="280px" height="280px" style="margin-top: 10%;"/>
+                                                </div>
+                                                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                                                    <p style="font-size: 17px;text-align: justify;">
+                                                        Effortlessly manage and access contact information for contacts, leads, clients, and stakeholders, fostering seamless communication and relationship building. Streamline lead tracking and conversion processes by capturing, categorizing, and nurturing potential clients, ensuring no business opportunity slips through the cracks. Using tagging, labeling etc…
                                                     </p>
-                                            
+                                                    <p style="font-size: 17px;text-align: justify;">
+                                                        Centralize client data for quick retrieval, enhancing client relationship management. Maintain a comprehensive record of interactions and transactions, enabling personalized service delivery and strengthening client relationships. Our integrated solution empowers you to build stronger connections, nurture leads, and provide exceptional service to your clients.
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
