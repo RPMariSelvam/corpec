@@ -9,7 +9,7 @@
     @media (min-width:961px)  {
         .solutionsContainer .tab-content{
             min-height: 500px;
-            background-color: #f4f4f5;
+            /*background-color: #f4f4f5;*/
         }
         .solutionsContainer .col-lg-3{
             width: 33.3%;
@@ -101,7 +101,7 @@ if($country_code !="sg" && $country_code !="in"){
                     <li><a href="#soa" data-toggle="tab">SOA</a></li>
                     <li><a href="#multiplecurrencies" data-toggle="tab">Multiple Currencies</a></li>
                 </ul>
-                <div class="tab-content col-md-9" style="padding: 25px;">
+                <div class="tab-content col-md-9" >
                     <h2 style="margin-left: 3%;">Productivity & Efficiency</h2>
                     <div class="active solution-list"  id="crm">
                         <div id="wrapper_6" class="orgin-css-hov">
@@ -115,10 +115,10 @@ if($country_code !="sg" && $country_code !="in"){
                                                     <img src="https://corpsec.app/storage/0_corpsec-home-page-banner-img-1500x928_9454ea4d.png" width="280px" height="280px" style="margin-top: 10%;"/>
                                                 </div>
                                                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
-                                                    <p style="font-size: 17px;text-align: justify;">
+                                                    <p style="font-size: 16px;text-align: justify;">
                                                         Effortlessly manage and access contact information for contacts, leads, clients, and stakeholders, fostering seamless communication and relationship building. Streamline lead tracking and conversion processes by capturing, categorizing, and nurturing potential clients, ensuring no business opportunity slips through the cracks. Using tagging, labeling etc…
                                                     </p>
-                                                    <p style="font-size: 17px;text-align: justify;">
+                                                    <p style="font-size: 16px;text-align: justify;">
                                                         Centralize client data for quick retrieval, enhancing client relationship management. Maintain a comprehensive record of interactions and transactions, enabling personalized service delivery and strengthening client relationships. Our integrated solution empowers you to build stronger connections, nurture leads, and provide exceptional service to your clients.
                                                     </p>
                                                 </div>
