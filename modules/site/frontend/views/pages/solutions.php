@@ -76,7 +76,7 @@ if($country_code !="sg" && $country_code !="in"){
             <div class="tabbable">
                 <ul class="nav nav-stacked col-md-3">
                     <h3>Productivity &  Efficiency</h3>
-                    <li class="active"><a href="#crm" data-toggle="tab">CRM</a></li>
+                    <li class="active"><a href="#crm" data-toggle="tab" class="active">CRM</a></li>
                     <li><a href="#entity" data-toggle="tab">Entity Management</a></li>
                     <li><a href="#kyc" data-toggle="tab">KYC (Know Your Customer)</a></li>
                     <li><a href="#eletter" data-toggle="tab">eLetter Box</a></li>
@@ -112,7 +112,7 @@ if($country_code !="sg" && $country_code !="in"){
                                             <div class="rd-org-img-wrapper rd-org-img-wrapper-sweep-1" style="padding:20px">
                                                 <h5 style="color:black;text-align: center;margin-bottom: 2%;"> Client Relationship Management (CRM)</h5>
                                                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                                                    <img src="https://corpsec.app/storage/0_corpsec-home-page-banner-img-1500x928_9454ea4d.png" width="280px" height="280px" style="margin-top: 10%;"/>
+                                                    <img src="https://ezcosec.com/storage/0_corpsec-home-page-banner-img-1500x928_9454ea4d.png" width="280px" height="280px" style="margin-top: 10%;"/>
                                                 </div>
                                                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
                                                     <p style="font-size: 16px;text-align: justify;">

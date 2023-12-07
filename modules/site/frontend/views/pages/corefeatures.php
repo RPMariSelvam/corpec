@@ -97,14 +97,14 @@
                 <div class="col-md-6">
                     <div class="content-area">
                         <div class="content">
-                            <h3>Improve your Productivity & increase the Efficiency of your business with CorpSec your
+                            <h3>Improve your Productivity & increase the Efficiency of your business with ezCoSec your
                                 one centralised software.</h3>
-                            <p style="font-size:16px;">CorpSec improves productivity and efficiency by streamlining lead management, client
+                            <p style="font-size:16px;">ezCoSec improves productivity and efficiency by streamlining lead management, client
                                 information access, document handling, digital signature with trackers, task
                                 organization, and Invoice and payment processes. It centralizes essential functions,
                                 enables real-time insights, and promotes seamless communication with clients, optimizing
                                 business operations</p>
-                            <b><a target="_blank" href="https://corpsec.app/solutions">Learn more</a></b>
+                            <b><a target="_blank" href="https://ezcosec.com/solutions">Learn more</a></b>
 
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                                 Instagram, Twitter, and TikTok. Consolidate all chats from FB Messenger, IG, TikTok,
                                 WhatsApp, SMS, Telegram, WeChat, and Google Chat all with the power of ChatGPT AI for
                                 streamlined communication. Boost your business today!.</p>
-                            <b><a target="_blank" href="https://corpsec.app/solutions">Learn more</a></b>
+                            <b><a target="_blank" href="https://ezcosec.com/solutions">Learn more</a></b>
                         </div>
                     </div>
 

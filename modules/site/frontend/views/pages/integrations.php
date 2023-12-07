@@ -183,7 +183,7 @@ if($country_code != "sg" && $country_code != "in"){
                                 alt="Asalta Telegram Integration">
                             <div class="ribbon blue"><span>Coming Soon</span></div>
                             <div class="rdorgin-ho-eff-wrapper"><h5> Telegram</h5>
-                                <p>Telegram integration with CorpSec enables you to send updates and messaging seamlessly.</p>
+                                <p>Telegram integration with ezCoSec enables you to send updates and messaging seamlessly.</p>
                                 <button class="btn btn-default btn-small l-float-right" href="#">READ MORE</button>
                                 <div class="image-overlay-horizontal-top-2"></div>
                                 <div class="image-overlay-horizontal-bottom-2"></div>
@@ -196,7 +196,7 @@ if($country_code != "sg" && $country_code != "in"){
                                 alt="Asalta Multi-Chat Integration">
                             <div class="ribbon blue"><span>Coming Soon</span></div>
                             <div class="rdorgin-ho-eff-wrapper"><h5> Multi-Chat</h5>
-                                <p>Multi-Chat integration with CorpSec enables you to send updates and messaging seamlessly.</p>
+                                <p>Multi-Chat integration with ezCoSec enables you to send updates and messaging seamlessly.</p>
                                 <button class="btn btn-default btn-small l-float-right" href="#">READ MORE</button>
                                 <div class="image-overlay-horizontal-top-2"></div>
                                 <div class="image-overlay-horizontal-bottom-2"></div>
@@ -209,7 +209,7 @@ if($country_code != "sg" && $country_code != "in"){
                                 alt="Asalta Marketplace Chat Integration">
                             <div class="ribbon blue"><span>Coming Soon</span></div>
                             <div class="rdorgin-ho-eff-wrapper"><h5> Marketplace Chat</h5>
-                                <p>Telegram integration with CorpSec enables you to send updates and messaging seamlessly.</p>
+                                <p>Telegram integration with ezCoSec enables you to send updates and messaging seamlessly.</p>
                                 <button class="btn btn-default btn-small l-float-right" href="#">READ MORE</button>
                                 <div class="image-overlay-horizontal-top-2"></div>
                                 <div class="image-overlay-horizontal-bottom-2"></div>
