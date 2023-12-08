@@ -1,4 +1,5 @@
 <style>
+
     .coreFeature .nav > li {
         min-width: 16%;
     }
@@ -32,10 +33,14 @@
     .coreFeature .nav-pills > li.active > a {
         font-weight: 600;
     }
-
+    .centered-text {
+        text-align: center;
+        width: 100%;
+    }
     .coreFeature .coreFeature_content {
-        margin-top: 25px;
-        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        /*height: 50vh;*/
     }
 
     .coreFeature .coreFeature_h3tage-heading {
@@ -91,15 +96,15 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="coreFeature_content">
                 <div class="col-md-6">
-                    <img class="img-responsive" src="images/home_page_1.png"
+                    <img class="img-responsive" src="images/home_page_1.png"  style="width: 80%"
                          alt="inventory tracking software">
                 </div>
                 <div class="col-md-6">
                     <div class="content-area">
-                        <div class="content">
+                        <div class="content centered-text">
                             <h3>Improve your Productivity & increase the Efficiency of your business with ezCoSec your
                                 one centralised software.</h3>
-                            <p style="font-size:16px;">ezCoSec improves productivity and efficiency by streamlining lead management, client
+                            <p style="font-size:16px;margin-top: 3%;text-align: justify;">ezCoSec improves productivity and efficiency by streamlining lead management, client
                                 information access, document handling, digital signature with trackers, task
                                 organization, and Invoice and payment processes. It centralizes essential functions,
                                 enables real-time insights, and promotes seamless communication with clients, optimizing
@@ -118,9 +123,9 @@
             <div class="coreFeature_content">
                 <div class="col-md-6">
                     <div class="content-area">
-                        <div class="content">
-                            <h3>Supercharge your Marketing & Outreach</h3>
-                            <p  style="font-size:16px;">Effortlessly send custom automated bulk emails like Mailchimp, schedule and post on FB,
+                        <div class="content centered-text">
+                            <h3 style="line-height: 2.5;">Supercharge your Marketing & Outreach</h3>
+                            <p  style="font-size:16px;text-align: justify;">Effortlessly send custom automated bulk emails like Mailchimp, schedule and post on FB,
                                 Instagram, Twitter, and TikTok. Consolidate all chats from FB Messenger, IG, TikTok,
                                 WhatsApp, SMS, Telegram, WeChat, and Google Chat all with the power of ChatGPT AI for
                                 streamlined communication. Boost your business today!.</p>
@@ -130,7 +135,7 @@
 
                 </div>
                 <div class="col-md-6">
-                    <img class="img-responsive" src="images/home_page_2.jpeg" alt="Asalta Ecommerce store">
+                    <img class="img-responsive" src="images/home_page_2.png" style="width: 80%" alt="Asalta Ecommerce store">
                 </div>
             </div>
         </div>
